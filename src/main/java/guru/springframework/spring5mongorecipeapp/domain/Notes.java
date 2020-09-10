@@ -9,6 +9,6 @@ import org.springframework.data.annotation.Id;
 public class Notes {
 
     @Id
-    private String id;
+    private String id;  //Why @Id works for Notes (embedded elem in Recipe)?
     private String recipeNotes;
 }
